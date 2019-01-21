@@ -1,0 +1,75 @@
+body{
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+   flex-direction: column;
+
+}
+div{
+    margin: 10px;
+    border: 1px solid #155ca4;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(30, 144, 255, 0.22);
+}
+
+.flexA{
+    display: flex;
+    flex-direction: column;
+
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    border-radius: 20px;
+    outline: none;
+    background-color: rgb(204, 255, 243);
+    border: 1px solid mediumaquamarine;
+    text-align: center;
+    padding: 0px 5px;
+}
+
+
+
+#value4{
+    border: none;
+    background-color: transparent;
+}
+
+
+
+.add{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #224a65;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+.remove{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #7d201c;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    cursor: pointer;
+}
+
+.conteiner{
+    width: 380px;
+    text-align: center;
+}
+.sort{
+    margin: 10px auto;
+    padding: 10px;
+    background-color: #177d19;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+}
